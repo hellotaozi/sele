@@ -55,5 +55,7 @@ driver_in.get("https://www.baidu.com/")
 above=driver_in.find_element_by_link_text("设置") #定位到要悬停到元素
 ActionChains(above).move_to_element(above).perform() #对定位对元素执行鼠标悬停操作
 
+#键盘操作
+
 
 driver_in.quit()
